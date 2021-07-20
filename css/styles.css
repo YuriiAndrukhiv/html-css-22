@@ -1,0 +1,80 @@
+/*Колір основного тексту #000000 */
+
+/* Вторинний колір тексту rgba(0, 0, 0, 0.8) */
+
+/* білий #ffffff */
+
+/* акцент #18A0FB */
+
+/* вторинний колір фону #F5F5F5 */
+
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--ptimary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* Site-nav */
+
+.site-nav .link {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+/* Герой */
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* Секція */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Feature */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Examples */
+.work-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--ptimary-white-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
