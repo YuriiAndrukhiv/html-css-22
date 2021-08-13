@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: var(--ptimary-bg-color);
+  background-color: var(--ptimary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -43,6 +43,9 @@ body {
   color: var(--title-text-color);
 }
 
+.site-nav .link.current {
+  color: var(--title-text-color);
+}
 /* Герой */
 .hero-title {
   color: var(--title-text-color);
