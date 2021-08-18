@@ -19,7 +19,7 @@ body {
   background-color: var(--ptimary-white-color);
   color: var(--primary-text-color);
 
-  /* font-family: Montserrat, sans-serif; */
+  font-family: Montserrat, sans-serif;
 }
 
 .list {
